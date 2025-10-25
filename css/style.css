@@ -60,6 +60,12 @@ a:hover, a:focus {
  letter-spacing: 0.02em;
  color: #434455;
 }
+.buba {
+     font-size: 16px;
+ line-height: 1.5;
+ letter-spacing: 0.02em;
+ color: #434455;
+}
 a:hover, a:focus {
     color: #404bbf ;
 }
