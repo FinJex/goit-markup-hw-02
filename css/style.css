@@ -88,6 +88,8 @@ height: 24px;
     letter-spacing: 0.02em;
     color: #FFFFFF;
     font-style: bold;
+    line-height: 1.07;
+    text-align: center;
 }
 .button {
    font-weight: 500;
@@ -97,7 +99,14 @@ height: 24px;
     background-color: #4D5AE5;
     color: #FFFFFF;
     font-style: medium;
+    font-family: "Roboto", sans-serif;
+    cursor: pointer;
 }
+
+button:hover, button:focus {
+    background-color: #404BBF;
+}
+
 
 /* #endregion section1 */
 
@@ -131,11 +140,17 @@ height: 24px;
    letter-spacing: 0.02em;
    color: #2E2F42;
    font-style: bold;
+   line-height: 1.11;
+   text-align: center;
+   text-transform: capitalize 
 }
 
 .our-team-img {
     width: 264px;
     height: 260px;
+}
+.our-team-list {
+background-color: #FFFFFF
 }
 .our-team {
     font-weight: 500;
@@ -166,6 +181,9 @@ height: 24px;
     line-height: 40px;
     letter-spacing: 0.02em;
     color: #2E2F42;
+    line-height: 1.11;
+    text-align: center;
+    text-transform: capitalize;
 }
 
 .our-portfolio {
@@ -202,6 +220,7 @@ background-color: #2E2F42;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4D5AE5;
+    line-height: 1.17;
 }
 
 .span-footer {
@@ -210,6 +229,12 @@ background-color: #2E2F42;
     line-height: 21px;
     letter-spacing: 0.03em;
     color: #F4F4FD;
+}
+
+.footer-paragraph {
+    line-height: 1.5;
+    color: #F4F4FD;
+    letter-spacing: 0.02em;
 }
 
 
