@@ -14,12 +14,18 @@ a {
 
 
 .logo {
-    width: 115px;
-    height: 24px;
-    top: 24px;
-    left: 156px;
+   font-family: "Raleway", sans-serif;
+   font-weight: 700px;
+   font-size: 18px;
+   line-height: 21px;
+   letter-spacing: 3%;
+   text-transform: uppercase;
+   color: #4d5ae5 ;
+   
 }
-
+span {
+    color: #2e2f42;
+}
 .head-text {
     color: #2E2F42;
     font-weight: 500;
@@ -27,9 +33,25 @@ a {
     font-size: 16px;
     letter-spacing: 2%;
 }
-.emeil {
-    width: 153px;
-    height: 24px;
+.a-studio {
+     line-height: 1.5;
+     letter-spacing: 0.02em;
+     color: #2e2f42;
+}
+a:hover, a:focus {
+    color: #404bbf;
+}
+.address {
+    font-style: normal;
+}
+.emeil,.number {
+ font-size: 16px;
+ line-height: 1.5;
+ letter-spacing: 0.02em;
+ color: #434455;
+}
+a:hover, a:focus {
+    color: #404bbf ;
 }
 
 .number {
