@@ -71,7 +71,15 @@ height: 24px;
 .our-team-section {
     background-color: #E7E9FC;
 }
+.our-team-title {
+    width: 162px;
+    height: 40px;
+}
 
+.our-team-img {
+    width: 264px;
+    height: 260px;
+}
 
 /* #endregion section3 */
 
