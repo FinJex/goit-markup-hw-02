@@ -1,5 +1,7 @@
 body {
     font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
 }
 
 ul {
@@ -70,10 +72,7 @@ a:hover, a:focus {
     color: #404bbf ;
 }
 
-.number {
-width: 151px;
-height: 24px;
-}
+
 /* #endregion header */
 
 /* #region section1 */
@@ -145,12 +144,9 @@ button:hover, button:focus {
    text-transform: capitalize 
 }
 
-.our-team-img {
-    width: 264px;
-    height: 260px;
-}
+
 .our-team-list {
-background-color: #FFFFFF
+background-color: #FFFFFF;
 }
 .our-team {
     font-weight: 500;
